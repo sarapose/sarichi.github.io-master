@@ -1,0 +1,120 @@
+/*Codigo CSS relacionado a cajas.html*/
+
+.contenedor {
+  width:1000px;
+  height:500px;
+  background: #fff;
+  padding:10px;
+  border:10px solid #2C3E50;
+  margin:auto;
+    
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  
+  flex-direction:row;
+  flex-wrap:wrap; 
+  
+  justify-content: flex-start;
+}
+.elemento {
+  color:#fff;
+  margin: 5px;
+  height: 200px;
+  width: 300px;
+  background: #E67E22;
+  color: white;
+  text-align:center;
+  
+ /* display: flex;*/
+ 
+}
+
+.mini {
+	
+  color:#fff;
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+  background: black;
+  color: black;
+  margin-top: 150px;
+  margin-left: 10px;
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #000000;
+  
+  	
+}
+/*.leermas{
+  position: float;
+  color:#fff;
+  margin: 5px;
+  height: 30px;
+  width: 100px;
+  background: white;
+  color: white;
+  margin-top: 150px;
+  margin-left: 80px;
+}
+
+/*.cajainterior2 {
+  
+  height: 150px;
+  width: 150px;
+  padding-left:  50px;
+  padding-right: 50px;
+  margin-left:   300px;
+  margin-right:  300px;
+  border: 3px solid black;	
+	
+	
+}
+.cajainterior3 {
+ 
+  height: 150px;
+  width: 150px;
+  padding-left:  50px;
+  padding-right: 50px;
+  margin-left:   570px;
+  margin-right:  570px;
+  border: 3px solid black;	
+	
+}
+.cajainterior1a {
+
+  height: 150px;
+  width: 150px;
+  padding-left:  50px;
+  padding-right: 50px;
+  margin-left:   30px;
+  margin-right:  30px;
+  margin-top:	 170px;
+  border: 3px solid black;
+	
+}
+.cajainterior2a {
+  
+  height: 150px;
+  width: 150px;
+  padding-left:  50px;
+  padding-right: 50px;
+  margin-left:   300px;
+  margin-right:  300px;
+  margin-top:	 170px;
+  border: 3px solid black;
+	
+}
+.cajainterior3a {
+  
+  height: 150px;
+  width: 150px;
+  padding-left:  50px;
+  padding-right: 50px;
+  margin-left:   570px;
+  margin-right:  570px;
+  margin-top:	 170px;
+  border: 3px solid black;
+	
+*/

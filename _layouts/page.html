@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% if page.title %}
+<header class="header-page has-img">
+<div class="big-img intro-header" style="background-image: url(/img/big-imgs/1.jpg);">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+	  <div class="page-heading">
+	    <div id="mih1">{{ page.title }}</div>
+	    <center>{% if page.subtitle %}</center>
+	    <hr class="small">
+	    <span class="page-subheading"><center>{{ page.subtitle }}</center></span>
+	    {% endif %}
+	  </div>
+    </div>
+  </div>
+ </div>
+ 
+</header>
+{% endif %}
+
+<div class="row">
+  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+  <div style="text-align: justify"> 
+    {{ content }}
+	{% if page.comments %}
+  </div>
+    
+    <div class="disqus-comments">
+	  {% include disqus.html %}
+    </div>
+	{% endif %}
+  </div>
+</div>
